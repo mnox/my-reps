@@ -1,0 +1,13 @@
+.repsViewContainer {
+    color: #000;
+}
+
+.repsViewInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+}
+
+.repListItemName {
+    pointer-events: none;
+}
