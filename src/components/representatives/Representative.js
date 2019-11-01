@@ -15,9 +15,7 @@ const Representative = (props) => {
 
     return (
         <List>
-            {
-
-            }
+            
             <ListItem>First Name: {firstName}</ListItem>
             <ListItem>Last Name: {lastName}</ListItem>
             <ListItem>District: {district}</ListItem>
