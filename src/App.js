@@ -24,7 +24,7 @@ class App extends Component {
 
     requestFetchReps = () => {
         if(this.state.selectedState !== 0 && this.state.selectedRepType !== 0) return this.fetchReps();
-    }
+    };
 
     async fetchReps() {
         await fetch(`http://localhost:9001/${this.state.selectedRepType}/${this.state.selectedState}`)
