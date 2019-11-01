@@ -11,11 +11,10 @@ const Representative = (props) => {
 
     let [firstName, lastName] = props.repInfo.name.split(' ');
     let {district, phone, office, link} = props.repInfo;
-    console.dir(props.repInfo);
 
     return (
         <List>
-            
+
             <ListItem>First Name: {firstName}</ListItem>
             <ListItem>Last Name: {lastName}</ListItem>
             <ListItem>District: {district}</ListItem>
